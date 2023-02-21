@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Câu 1: Bài tập về thẻ a</h2>
+   <p> <a href="https://www.google.com">Viết dòng này bằng thẻ a. Khi click vào chuyển hướng sang trang google.com</a></p>
+    <p><a href="https://www.google.com">Viết dòng này bằng thẻ a. Khi click vào chuyển hướng snag trang google trong tag mới</a></p>
+    <h2>Bài 2: Bài tập về thẻ img</h2>
+    <p><b>Yêu cầu:</b> Tọa thư mục đặt tên là images, sau đó để hình ảnh bất kì vào thư mục image đó. Tiếp theo, chèn hình ảnh 
+    đó vào trang web bằng cách sử dụng thẻ image. Đường dẫn vào dạng relative (Đường dẫn tương đối).</p>
+    <img src="image/Screenshot 2023-01-07 105450.png" alt="">
+    <h2>Câu 3: Bài tập về thẻ video</h2>
+    <p><b>Yêu cầu: </b>Tạo thư mục đặt tên là videos, sau đó để video  bất kì vào thưu mục video đó. Tiếp theo chèn video đó vào trang web bằng 
+    cách sử dụng thẻ video và thẻ source. Đường dẫn video dạng relative(Đương dẫn tương đối)
+    Đặt kcihs thước video có width=720 và height=405(tương đương tỷ lệ 16/9).</p>
+    <video  controls width="720" height="405" >
+        <source src="videos/video.mp4">
+    </video>
+    <h2>Câu 4: Bài tập về thẻ table</h2>
+    <p><b>Yêu cầu: </b>Dùng thẻ table, thead. tbody,tr,th,td đã được học để vẽ bảng như sau:</p>
+    <p><b>Lưu ý: </b>Copy đoạn code sau vào file đẻ có thêm đường viền cho table.
+    Phần này chưa học nhưng thêm vào vào cho dễ nhìn</p>
+    <style>
+        table, tr, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+    </style>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">Hóa đơn số 1234</th>
+                <th colspan="2">Ngày 20/11/2022</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="3">
+                    <p><b>Thông tin khách hàng</b></p>
+                    <p>Họ tên Cao Ba Vì</p>
+                    <p>Số điện thoại: 03235234</p>
+                    <p>Địa chỉ: số 123, đường Abc, thành phố Hà Nội</p>
+                </td>
+                <td colspan="3">
+                    <p><b>Thông tin khách hàng</b></p>
+                    <p>Họ tên Cao Ba Vì</p>
+                    <p>Số điện thoại: 03235234</p>
+                    <p>Địa chỉ: số 123, đường Abc, thành phố Hà Nội</p>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">Tên sản phẩm</th>
+                <th>Số lượng </th>
+                <th>Đơn giá</th>
+                <th colspan="2">Thanh tiền</th>
+            </tr>
+            <tr>
+                <td colspan="2">Giày nam cao cấp</td>
+                <td>2</td>
+                <td>800.000đ</td>
+                <td>1.600.000đ</td>
+
+            </tr>
+            <tr>
+                <td colspan="2">Giày nữ cao cấp</td>
+                <td>2</td>
+                <td>500.000đ</td>
+                <td>1.000.000</td>
+            </tr>
+            <tr>
+                <th colspan="4">Tạm tính</th>
+                <td>2.600.600</td>
+            </tr>
+            <tr>
+                <th colspan="4">Thuế VAT 10%</th>
+                <td>260.000</td>
+            </tr>
+            <tr>
+                <th colspan="4">Tổng tiền</th>
+                <td>2.860.000đ</td>
+            </tr>
+        </tbody>
+
+    </table>
+    <h2>Câu 5: Bài tập về thẻ ul,ol, li</h2>
+    <p><b>Yêu cầu: </b> Tạo danh sách sau sử dụng thẻ ol,li</p>
+        <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instragram</li>
+            <li>Youtobe</li>
+        </ul>
+    <p><b>Yêu cầu: </b>Tạo danh sách sau sử dụng thẻ ol, li</p>
+    <ol>
+        <li>Thời trang</li>
+        <li>Công nghệ</li>
+        <li>Đồ điện tử</li>
+        <li>Đồ gia dụng</li>
+    </ol>
+    <p><b>Yêu cầu: </b>Tạo danh sách sau sử dụng thẻ ol, li. Có kiểu là chữ La mã viết hoa</p>
+    <ol type="I">
+        <li>Học HTML5</li>
+        <li>Học CSS3</li>
+        <li>Học Bootstrap 4</li>
+        <li>Học JavaScript</li>
+    </ol>
+    <h2>Câu 6: Bài tập về class và id</h2>
+    <p><b>Yêu cầu: Viết đoạn văn dưới đây và làm theo nội dung bên trong nó.</b></p>
+    <div class="testclass">
+        <p>Viết đoạn văn này sử dụng thẻ div. Sau đó thêm class có giá trị là "test-class" vào thẻ div này.</p>
+    </div>
+    <div id="test-id">
+        <p>Viết đoạn văn này sử dụng thẻ div. Sau đó thêm id có giá trị là "test-id" vào thẻ div này</p>
+    </div>
+</body>
+</html>
